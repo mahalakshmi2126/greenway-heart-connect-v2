@@ -8,7 +8,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { MapPin, Phone, Mail, Clock, Send } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
-import wheelchairSupport from "@/assets/Photos/Main8.JPG";
+import wheelchairSupport from "@/assets/Photos/Main8.jpg";
 import { motion } from "framer-motion";
 
 const API_BASE = import.meta.env.VITE_API_BASE;
