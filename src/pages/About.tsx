@@ -14,7 +14,7 @@ import {
   ChevronRight,
 } from "lucide-react";
 import axios from "axios";
-import wheelchairSupport from "@/assets/Photos/Main3.JPG";
+import wheelchairSupport from "@/assets/Photos/Main3.jpg";
 import about from "@/assets/about.jpg";
 
 const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:5000";

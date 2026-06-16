@@ -24,7 +24,7 @@ import {
 } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 // import { Link } from "react-router-dom";
-import wheelchairSupport from "@/assets/Photos/Main4.JPG";
+import wheelchairSupport from "@/assets/Photos/Main4.jpg";
 import wheelchairSupports from "@/assets/Donate/wc.jpg";
 import electricWheelchair from "@/assets/Donate/Ewc.png";
 import walkingStick from "@/assets/Donate/WS.webp";

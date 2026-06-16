@@ -22,7 +22,7 @@ import {
 } from "lucide-react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import heroBackground from "@/assets/Photos/Main3.JPG";
+import heroBackground from "@/assets/Photos/Main3.jpg";
 import { useToast } from "@/hooks/use-toast";
 
 const API_BASE = import.meta.env.VITE_API_BASE;

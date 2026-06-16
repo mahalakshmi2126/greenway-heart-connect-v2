@@ -13,7 +13,7 @@ import { Input } from "@/components/ui/input";
 import { Eye, Download, Search, Heart, User } from "lucide-react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import heroBackground from "@/assets/Photos/Main4.JPG";
+import heroBackground from "@/assets/Photos/Main4.jpg";
 import axios from "axios";
 
 const API_BASE = import.meta.env.VITE_API_BASE;

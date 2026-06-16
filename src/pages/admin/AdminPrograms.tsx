@@ -29,7 +29,7 @@ import {
 } from "lucide-react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import heroBackground from "@/assets/Photos/Main10.JPG";
+import heroBackground from "@/assets/Photos/Main10.jpg";
 
 const API_BASE = import.meta.env.VITE_API_BASE;
 

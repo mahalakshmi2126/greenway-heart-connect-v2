@@ -8,7 +8,7 @@ import { ArrowRight, Calendar, User, Search } from "lucide-react";
 import { Link, useParams } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import blogBanner from "@/assets/Photos/Main2.JPG";
+import blogBanner from "@/assets/Photos/Main2.jpg";
 import axios from "axios";
 
 const Blog = () => {
