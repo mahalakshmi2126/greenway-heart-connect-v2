@@ -190,7 +190,9 @@ const AdminDonate = () => {
     (sum, donation) => sum + (donation.totalAmount || 0),
     0
   );
-  const totalDonors = new Set(donations.map((d) => d.donorEmail)).size;
+  const totalDonors = new Set(
+    donations.map((d) => d.donorEmail || d.donorPhone || d.donorName)
+  ).size;
 
   return (
     <div className="min-h-screen bg-background">
