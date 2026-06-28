@@ -1,20 +1,20 @@
 import React from 'react';
 
-import logo1 from '@/assets/logos/11.jpg';
-import logo2 from '@/assets/logos/Aara.png';
-import logo3 from '@/assets/logos/Corpwings Logo.png';
-import logo4 from '@/assets/logos/Dr REddys.png';
-import logo5 from '@/assets/logos/Karigiri Logos.png';
-import logo6 from '@/assets/logos/Mano Social Welfare.png';
-import logo7 from '@/assets/logos/New Vision.jpg';
-import logo8 from '@/assets/logos/SSK.jpg';
-import logo9 from '@/assets/logos/Sathya Jeevan.jpg';
-import logo10 from '@/assets/logos/TAF.jpg';
-import logo11 from '@/assets/logos/The Give Foundation trust_20250203_225205_0000_page-0001.jpg';
-import logo12 from '@/assets/logos/Vasavi Clubs.png';
-import logo13 from '@/assets/logos/Vellore Vega.png';
-import logo14 from '@/assets/logos/Youth4jobs.png';
-import logo15 from '@/assets/logos/pa fOOTWEAR.jpg';
+import logo1 from '@/assets/Logos/11.jpg';
+import logo2 from '@/assets/Logos/Aara.png';
+import logo3 from '@/assets/Logos/Corpwings Logo.png';
+import logo4 from '@/assets/Logos/Dr REddys.png';
+import logo5 from '@/assets/Logos/Karigiri Logos.png';
+import logo6 from '@/assets/Logos/Mano Social Welfare.png';
+import logo7 from '@/assets/Logos/New Vision.jpg';
+import logo8 from '@/assets/Logos/SSK.jpg';
+import logo9 from '@/assets/Logos/Sathya Jeevan.jpg';
+import logo10 from '@/assets/Logos/TAF.jpg';
+import logo11 from '@/assets/Logos/The Give Foundation trust_20250203_225205_0000_page-0001.jpg';
+import logo12 from '@/assets/Logos/Vasavi Clubs.png';
+import logo13 from '@/assets/Logos/Vellore Vega.png';
+import logo14 from '@/assets/Logos/Youth4jobs.png';
+import logo15 from '@/assets/Logos/pa fOOTWEAR.jpg';
 
 const logos = [
   { src: logo1, className: "" },
