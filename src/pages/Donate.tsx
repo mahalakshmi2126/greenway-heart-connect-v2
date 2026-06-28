@@ -207,28 +207,29 @@ const Donate = () => {
       icon: Users,
       color: "bg-orange-500",
     },
-    // {
-    //   id: 5,
-    //   title: "Environmental Sustainability Initiatives",
-    //   items: [
-    //     {
-    //       id: 14,
-    //       name: "Tree Sapling",
-    //       price: 100,
-    //       image: about,
-    //       description: "Plant a tree for a greener future",
-    //     },
-    //     {
-    //       id: 15,
-    //       name: "Green Drive Support",
-    //       price: 1000,
-    //       image: about,
-    //       description: "Support our environmental awareness camps",
-    //     },
-    //   ],
-    //   icon: Heart,
-    //   color: "bg-emerald-500",
-    // },
+    {
+      id: 5,
+      title: "Environmental Sustainability Initiatives",
+      catImage: photoLivelihood,
+      items: [
+        {
+          id: 14,
+          name: "Tree Sapling",
+          price: 100,
+          image: about,
+          description: "Plant a tree for a greener future",
+        },
+        {
+          id: 15,
+          name: "Green Drive Support",
+          price: 1000,
+          image: about,
+          description: "Support our environmental awareness camps",
+        },
+      ],
+      icon: Heart,
+      color: "bg-emerald-500",
+    },
   ];
 
   const [selectedCategory, setSelectedCategory] = useState(
@@ -440,7 +441,7 @@ const Donate = () => {
           </motion.div>
 
           {/* Category Tabs */}
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-10 max-w-6xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mb-10 max-w-7xl mx-auto">
             {donationCategories.map((category) => {
               const isSelected = selectedCategory.id === category.id;
               return (
@@ -577,8 +578,8 @@ const Donate = () => {
                 />
                 <div>
                   <Label>Select Category</Label>
-                  <div className="grid grid-cols-2 gap-2 mt-2 mb-4">
-                    {["Para Sports", "Health Care", "Livelihood", "Education"].map(
+                  <div className="flex flex-wrap gap-2 mt-2 mb-4">
+                    {["Para Sports", "Health Care", "Livelihood", "Education", "Environment"].map(
                       (cat) => (
                         <Button
                           key={cat}
@@ -639,7 +640,7 @@ const Donate = () => {
                 <div>
                   <Label>Select Category</Label>
                   <div className="grid grid-cols-2 gap-2 mt-2">
-                    {["Para Sports", "Health Care", "Livelihood", "Education"].map(
+                    {["Para Sports", "Health Care", "Livelihood", "Education", "Environment"].map(
                       (cat) => (
                         <Button
                           key={cat}

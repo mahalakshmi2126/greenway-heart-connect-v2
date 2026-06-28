@@ -155,7 +155,7 @@ const About = () => {
               <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6 pt-2">
                 Welcome to GreenWay Trust
               </h2>
-              <p className="text-muted-foreground leading-relaxed text-lg">
+              <p className="text-muted-foreground leading-relaxed text-lg text-justify">
                 Founded on 27 November 2020, Greenway Trust is a registered
                 non-governmental organization led by persons with
                 disabilities. We work to create sustainable and inclusive
@@ -186,7 +186,7 @@ const About = () => {
               transition={{ duration: 0.6, delay: 0.4 }}
               viewport={{ once: true }}
             >
-              <div className="space-y-4 text-muted-foreground leading-relaxed">
+              <div className="space-y-4 text-muted-foreground leading-relaxed text-justify">
                 <p>
                   At Greenway Trust, we believe true empowerment happens when
                   individuals move beyond receiving support and begin
@@ -459,7 +459,7 @@ const About = () => {
                             )}
                           </div>
                         </div>
-                        <p className="text-muted-foreground leading-relaxed text-sm">
+                        <p className="text-muted-foreground leading-relaxed text-sm text-justify">
                           {member.bio}
                         </p>
                       </CardContent>

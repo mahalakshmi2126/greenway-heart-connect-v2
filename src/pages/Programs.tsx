@@ -9,7 +9,7 @@ import { Badge } from "@/components/ui/badge";
 import { Calendar, MapPin, Clock, Users, ZoomIn, X } from "lucide-react";
 import JoinEventDialog from "@/components/JoinEventDialog";
 import axios from "axios";
-import programsBanner from "@/assets/Photos/Main4.jpg";
+import programsBanner from "@/assets/Programs.JPG.jpeg";
 
 const API_BASE = import.meta.env.VITE_API_BASE;
 

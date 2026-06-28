@@ -8,13 +8,13 @@ import { ArrowRight, Calendar, User, Search } from "lucide-react";
 import { Link, useParams } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import blogBanner from "@/assets/Photos/Main2.jpg";
+import blogBanner from "@/assets/Blog.jpg.jpeg";
 import axios from "axios";
 
 const Blog = () => {
   const { id } = useParams();
   const [searchTerm, setSearchTerm] = useState("");
-  const [posts, setPosts] = useState([]);
+  const [posts, setPosts] = useState([])
   const [post, setPost] = useState(null);
   const [loading, setLoading] = useState(true);
   const [postLoading, setPostLoading] = useState(false);

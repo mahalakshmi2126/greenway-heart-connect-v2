@@ -11,6 +11,7 @@ import VolunteerSection from "@/components/VolunteerSection";
 import GetInTouchSection from "@/components/GetInTouchSection";
 import OurCommunitySection from "@/components/OurCommunitySection";
 import Footer from "@/components/Footer";
+import OurPartners from "@/components/OurPartners";
 
 import MonthlyDonateButton from "@/components/MonthlyDonateButton";
 
@@ -28,6 +29,7 @@ const Index = () => {
       <VolunteerSection />
       <GetInTouchSection />
       <OurCommunitySection />
+      <OurPartners />
       <Footer />
       <MonthlyDonateButton />
     </div>

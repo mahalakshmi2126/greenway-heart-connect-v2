@@ -19,7 +19,7 @@ import {
 import { Plus, Trash2, Upload, Edit, User, Eye } from "lucide-react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import heroBackground from "@/assets/Photos/Main1.jpg";
+import heroBackground from "@/assets/Programs.JPG.jpeg";
 
 const API_BASE = import.meta.env.VITE_API_BASE;
 

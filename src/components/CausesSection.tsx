@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import wheelchairSupport from "@/assets/wheelchair.jpg";
 import EnvironmentalProtection from "@/assets/tree.jpg";
 import foodNutrition from "@/assets/food.jpg";
-import skilldevelop from "@/assets/front cause.jpg"
+import skilldevelop from "@/assets/Skill Development & Livelihood Training.jpg.jpeg"
 
 const CausesSection = () => {
   const navigate = useNavigate();
