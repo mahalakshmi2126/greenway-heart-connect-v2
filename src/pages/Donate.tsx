@@ -46,6 +46,7 @@ import photoParaSports from "../assets/Photos/Donation/Promotion Para Sports.jpg
 import photoHealthCare from "../assets/Photos/Donation/Health Care.jpeg";
 import photoEducation from "../assets/Photos/Donation/Education & Learning.jpg";
 import photoLivelihood from "../assets/Photos/Donation/Environment.jpg";
+import photoEmpowerment from "../assets/about.jpg";
 import { toast } from "sonner";
 import { Link } from "react-router-dom";
 import axios from "axios";
@@ -210,7 +211,7 @@ const Donate = () => {
     {
       id: 5,
       title: "Environmental Sustainability Initiatives",
-      catImage: photoLivelihood,
+      catImage: photoEmpowerment,
       items: [
         {
           id: 14,
